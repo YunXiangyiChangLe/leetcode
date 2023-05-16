@@ -67,6 +67,7 @@ public:
         }
         first->next=first->next->next;
         return dummyHead->next;
+        
     }
 };
 //leetcode submit region end(Prohibit modification and deletion)
